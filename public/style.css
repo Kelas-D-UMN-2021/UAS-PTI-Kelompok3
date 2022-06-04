@@ -1,0 +1,212 @@
+html,
+body {
+  position: relative;
+  font: normal Verdana, Arial, sans-serif;
+  background-color: rgb(212, 245, 245);
+  margin: 0px;
+  height: 100%;
+}
+.container-fluid {
+  background-color: rgb(212, 245, 245);
+  height: 100%;
+}
+/* styling header */
+header {
+  background-color: rgb(212, 245, 245);
+  display: grid;
+  place-items: center;
+}
+header img {
+  width: 150px;
+}
+/* styling menu pemain */
+#div_intro {
+  border: 20px ridge rgb(166, 170, 231);
+  border-radius: 50px;
+  background-image: url("image/bg_intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#char_img {
+  width: auto;
+  height: 260px;
+}
+#arrow_kiri,
+#arrow_kanan {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+#nama_pemain {
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+}
+#Category {
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+}
+#play_button {
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+#play_button:hover {
+  background-color: rgb(79, 82, 133);
+  color: #e2e4e3;
+  border: 10px ridge rgb(79, 82, 133);
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+  opacity: 50%;
+}
+#help {
+  text-decoration: none;
+  color: black;
+  background-color: #e2e4e3;
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 50px;
+  padding: 3px 22px;
+  height: 50px;
+  text-align: center;
+}
+#help:hover {
+  background-color: rgb(79, 82, 133);
+  color: #e2e4e3;
+  border: 10px ridge rgb(79, 82, 133);
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+  opacity: 50%;
+}
+
+/*GAME*/
+#div_game {
+  border-radius: 50px;
+  display: grid;
+  position: center;
+  border: 20px ridge rgb(166, 170, 231);
+  background-image: url("image/room_pagi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: auto;
+}
+#greeting {
+  padding-top: 10px;
+  text-align: center;
+  background-color: #e2e4e3;
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 20px;
+}
+/* #bar{
+    border: 2px ridge darkred;
+    background-color: #fa5d5d;
+    width: 180px;
+    height: 50px;
+} */
+progress {
+  height: 25px;
+}
+#container_statistic {
+  width: 300px;
+  background-color: #e2e4e3;
+  border: 10px ridge rgb(166, 170, 231);
+  border-radius: 20px;
+  padding-top: 10px;
+}
+#div_container {
+  display: inline-block;
+}
+#status_image {
+  width: 50px;
+}
+#div_news {
+  width: auto;
+  padding-top: 10px;
+  text-align: center;
+  background-color: lightblue;
+  border: 7px solid black;
+  border-radius: 20px;
+}
+#play_char {
+  width: auto;
+  height: 260px;
+}
+#goto,
+#todo {
+  color: white;
+}
+#div_tempat button {
+  border: 5px ridge rgb(166, 170, 231);
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+}
+#goto button:hover {
+  background-color: rgb(173, 222, 245);
+  opacity: 80%;
+}
+#goto button:disabled {
+  background-color: rgb(251, 163, 147);
+  border: 5px ridge rgb(255, 105, 105);
+  color: red;
+}
+#div_aktifitas button {
+  border: 5px ridge rgb(166, 170, 231);
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+}
+#div_actifitas button:hover {
+  background-color: rgb(173, 222, 245);
+  opacity: 80%;
+}
+#div_aktifitas button:disabled {
+  background-color: rgb(251, 163, 147);
+  border: 5px ridge rgb(255, 105, 105);
+  color: red;
+}
+#pesan {
+  color: rgb(197, 74, 74);
+}
+
+/* alert */
+.alert {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
